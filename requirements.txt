@@ -1,0 +1,16 @@
+# HTTP requests
+requests
+
+# Audio processing
+pydub
+ffmpeg-python
+
+# Environment variables
+python-dotenv
+
+# Machine learning
+tensorflow
+
+# Optional: for safer glob handling (standard glob works too)
+glob2
+
