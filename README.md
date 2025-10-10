@@ -1,24 +1,16 @@
----
-
 # Wake Word Detection 🔊
 
-An **end-to-end deep learning pipeline** for **custom wake word detection**, powered by **TensorFlow** and **ElevenLabs TTS**.
+An end-to-end deep learning pipeline for custom wake word detection, powered by TensorFlow and ElevenLabs TTS.
 
-This project covers the full workflow — from **audio generation and preprocessing** to **GRU-based model training and evaluation**.
+## Features
 
----
+✅ Generate activate and negative samples using ElevenLabs TTS  
+✅ Mix with background noise for realistic training data  
+✅ Automatic creation of training and dev datasets  
+✅ Train a GRU-based deep learning model  
+✅ Evaluate and visualize model predictions
 
-## ⚙️ Features
-
-✅ Generate *activate* and *negative* samples using **ElevenLabs TTS**
-✅ Mix with *background noise* for realistic audio data
-✅ Automatic creation of *training* and *dev* datasets
-✅ Train a **GRU (Gated Recurrent Unit)** based deep learning model
-✅ Evaluate, test, and visualize model predictions
-
----
-
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the Repository
 
@@ -27,11 +19,7 @@ git clone https://github.com/Madhusanka-slc/wake-word-detection.git
 cd wake-word-detection
 ```
 
----
-
-## 🐍 Environment Setup
-
-### Create and Activate Virtual Environment
+### 2. Create Virtual Environment
 
 ```bash
 # Create environment
@@ -39,125 +27,97 @@ python -m venv wakeword-env
 
 # Activate (Windows)
 wakeword-env\Scripts\activate
-# or (macOS/Linux)
+
+# Activate (macOS/Linux)
 source wakeword-env/bin/activate
 ```
 
-### Install Dependencies
+### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-✅ Requires **Python 3.8+**
+**Requires:** Python 3.8+
 
----
+### 4. Setup API Key
 
-## 🔑 Setup API Key
-
-Copy the example `.env` file:
+Copy the example environment file:
 
 ```bash
 cp .env.example .env
 ```
 
-Add your **ElevenLabs API key**:
+Add your ElevenLabs API key in `.env`:
 
 ```env
 ELEVENLABS_API_KEY=your_api_key_here
 ```
 
-👉 Get your key from [ElevenLabs → Profile Settings](https://elevenlabs.io/)
+Get your key from [ElevenLabs Profile Settings](https://elevenlabs.io/)
 
----
+### 5. Add Background Audio
 
-## 🎧 Add Background Audio
-
-Place your 10-second background clips here:
+Place your 10-second background clips in:
 
 ```
 data/raw/backgrounds/
 ```
 
-Examples: ambient noise, music, office chatter, etc.
-Formats: `.wav`, `.mp3`, `.m4a`
+**Examples:** ambient noise, music, office chatter  
+**Formats:** `.wav`, `.mp3`, `.m4a`  
+**Minimum:** 2-5 clips required
 
-> You need at least **2–5 clips** for the system to work properly.
+## Usage
 
----
-
-## 🧠 Full Pipeline (Run in Order)
-
-Open Jupyter and execute the following notebooks:
-
-1. **1_data_downloading.ipynb** → Download or create *activate* and *negative* audio samples
-2. **2_data_creation.ipynb** → Generate labeled *training* and *dev* datasets
-3. **3_training.ipynb** → Build and train the **GRU-based wake word detection model**
-4. **4_test_model.ipynb** → Test and visualize model performance
+Run the notebooks in order:
 
 ```bash
 jupyter notebook
 ```
 
----
+1. **1_data_downloading.ipynb** - Download activate and negative audio samples
+2. **2_data_creation.ipynb** - Generate training and dev datasets
+3. **3_training.ipynb** - Train the GRU-based model
+4. **4_test_model.ipynb** - Test and evaluate model
 
-## 🧩 Utility Script
-
-**`td_utils.py`** – Helper functions for:
-
-* Audio preprocessing and normalization
-* Spectrogram generation
-* Label creation for training sequences
-* Visualization and analysis utilities
-
----
-
-## 🧠 Model Architecture
-
-The wake word detection model is built using:
-
-* **Conv1D layers** – for low-level temporal feature extraction
-* **Bidirectional GRU layers** – for sequential context understanding
-* **Dense + Sigmoid output** – for frame-level wake word prediction
-
----
-
-## 📂 Project Structure
+## Project Structure
 
 ```
 wake-word-detection/
-├── scripts/                    
+├── scripts/
 │   ├── 1_data_downloading.ipynb
 │   ├── 2_data_creation.ipynb
 │   ├── 3_training.ipynb
 │   └── 4_test_model.ipynb
 ├── data/
 │   ├── raw/
-│   │   └── backgrounds/        
-│   └── processed/              
-├── models/                     # Saved GRU models
+│   │   └── backgrounds/        # ⚠️ Add your audio here
+│   └── processed/              # Generated datasets
+├── models/                     # Saved models
 ├── audio/sample/               # Test samples
 ├── td_utils.py                 # Helper utilities
 ├── requirements.txt
-└── .env                        # API key file
+└── .env                        # ⚠️ Add your API key here
 ```
 
----
+## Model Architecture
 
-## 🧰 Requirements
+The model uses:
+- **Conv1D layers** - Temporal feature extraction
+- **Bidirectional GRU layers** - Sequential context understanding
+- **Dense + Sigmoid** - Frame-level wake word prediction
 
-* Python 3.8+
-* TensorFlow
-* ElevenLabs API Key
-* Jupyter Notebook
-* Background audio (10s clips)
+## Requirements
 
----
+- Python 3.8+
+- TensorFlow
+- ElevenLabs API Key
+- Jupyter Notebook
+- Background audio clips (10 seconds each)
 
-## 📜 License
+## License
 
 MIT License
 
-Made with ❤️ by [**Madhusanka**](https://github.com/Madhusanka-slc)
-
----
+Made with ❤️ by [Madhusanka](https://github.com/Madhusanka-slc)
