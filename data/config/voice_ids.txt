@@ -1,0 +1,24 @@
+# ElevenLabs Voice IDs
+# Add one voice ID per line
+# Lines starting with # are ignored
+
+pNInz6obpgDQGcFmaJgB
+Xb7hH8MSUJpSbSDYk0k2
+ErXwobaYiN019PkySvjV
+9BWtsMINqrJLrRacOk9x
+VR6AewLTigWG4xSOukaG
+wViXBPUzp2ZZixB1xQuM
+
+# Additional voice IDs (uncomment to use):
+# pqHfZKP75CvOlQylNhV4
+# N2lVS1w4EtoT3dr4eOWO
+# IKne3meq5aSn9XLyUdCD
+# XB0fDUnXU5powFXDhCwa
+# iP95p4xoKVk53GoZ742B
+# 2EiwWnXFnvU5JabPnv8n
+# AZnzlk1XvdvUeBnXmlld
+# ThT5KcBeYPX3keUQqHPh
+# LcfcDJNUP1GQjkzn1xUU
+# cjVigY5qzO86Huf0OWal
+# jsCqWAovK2LkecY7zXl4
+# Yko7PKHZNXotIFUBG7I9

@@ -1,0 +1,13 @@
+# Negative phrases (similar-sounding words)
+# Add one phrase per line
+Terry
+Harry
+Gary
+Barry
+#Larry
+#Mary
+#Siri
+#Google
+#Alexa
+#Jarvis
+#Cortana
