@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-10-10T11:02:56.420268",
+    "timestamp": "2025-10-10T11:47:15.898394",
     "model_name": "wakeword_model.h5",
     "architecture": {
         "input_shape": [
@@ -20,8 +20,8 @@
         "loss": "binary_crossentropy"
     },
     "training_results": {
-        "final_loss": 1.251954436302185,
-        "final_accuracy": 0.4999772608280182,
+        "final_loss": 1.3361740112304688,
+        "final_accuracy": 0.5050908923149109,
         "training_samples": 32
     }
 }

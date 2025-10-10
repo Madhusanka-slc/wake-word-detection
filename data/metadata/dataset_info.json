@@ -20,9 +20,9 @@
   },
   "folders": {
     "base": "..\\data",
-    "activates": "..\\data\\activates",
-    "negatives": "..\\data\\negatives",
-    "backgrounds": "..\\data\\backgrounds",
+    "activates": "..\\data\\raw\\activates",
+    "negatives": "..\\data\\raw\\negatives",
+    "backgrounds": "..\\data\\raw\\backgrounds",
     "processed": "..\\data\\processed",
     "metadata": "..\\data\\metadata"
   }

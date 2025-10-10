@@ -1,16 +1,31 @@
-# HTTP requests
-requests
+# Core Dependencies
+numpy>=1.26.0
+scipy>=1.11.0
+matplotlib>=3.8.0
 
-# Audio processing
-pydub
-ffmpeg-python
+# Audio Processing
+pydub>=0.25.0
+ffmpeg-python>=0.2.0
 
-# Environment variables
-python-dotenv
+# Machine Learning / Deep Learning
+tensorflow>=2.16.0
+keras>=3.0.0
 
-# Machine learning
-tensorflow
+# HTTP Requests
+requests>=2.25.0
 
-# Optional: for safer glob handling (standard glob works too)
-glob2
+# Environment Variables
+python-dotenv>=0.19.0
 
+# Jupyter Notebook
+jupyter>=1.0.0
+ipython>=7.20.0
+
+# Data Handling
+pandas>=1.2.0
+
+# Optional: File Handling
+glob2>=0.7
+
+# Logging and Utilities
+tqdm>=4.60.0
