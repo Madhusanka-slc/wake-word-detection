@@ -2,23 +2,66 @@
 # Add one voice ID per line
 # Lines starting with # are ignored
 
-pNInz6obpgDQGcFmaJgB
-Xb7hH8MSUJpSbSDYk0k2
-ErXwobaYiN019PkySvjV
-9BWtsMINqrJLrRacOk9x
-VR6AewLTigWG4xSOukaG
-wViXBPUzp2ZZixB1xQuM
+GBv7mTt0atIp3Br8iCZE
+
+
 
 # Additional voice IDs (uncomment to use):
+
+# TX3LPaxmHKxFdv7VOQHJ
+# zcAOhNBS3c14rBihAFp1
+# jBpfuIE2acCO8z3wKNLl
+# jsCqWAovK2LkecY7zXl4
+# cjVigY5qzO86Huf0OWal
+# Xb7hH8MSUJpSbSDYk0k2
 # pqHfZKP75CvOlQylNhV4
+# nPczCjzI2devNBz1zQrb
+# 56AoDkrOh6qfVPDXZ7Pt
+# tnSpp4vdxKPjI9w0GnoV
+# NFG5qt843uXKj4pFvR7C
+# YXpFCvM1S3JbWEJhoskW
+# UgBBYS2sOqTuMpoF3BR0
+# NOpBlnGInO9m6vDvFkFC
+# pNInz6obpgDQGcFmaJgB
+# ErXwobaYiN019PkySvjV
+# 9BWtsMINqrJLrRacOk9x
+# VR6AewLTigWG4xSOukaG
 # N2lVS1w4EtoT3dr4eOWO
 # IKne3meq5aSn9XLyUdCD
 # XB0fDUnXU5powFXDhCwa
 # iP95p4xoKVk53GoZ742B
 # 2EiwWnXFnvU5JabPnv8n
+# onwK4e9ZLuTAKqWW03F9
+# CYw3kZ02Hs0563khs1Fj
 # AZnzlk1XvdvUeBnXmlld
 # ThT5KcBeYPX3keUQqHPh
+# 29vD33N1CtxCmqQRPOHJ
+# MF3mGyEYCl7XYWbV9V6O
 # LcfcDJNUP1GQjkzn1xUU
-# cjVigY5qzO86Huf0OWal
-# jsCqWAovK2LkecY7zXl4
-# Yko7PKHZNXotIFUBG7I9
+# g5CIjZEefAph4nQFvHAz
+# D38z5RcWu1voky8WS1ja
+# JBFqnCBsd6RMkjVDRZzb
+# z9fAnlkpzviPz146aGWa
+# oWAxZDx7w5VEj9dCyTzz
+# SOYHLrjzK2X1ezoPC6cr
+# ZQe5CZNOzWyzPSCn5a3c
+# bVMeCyTHy58xNoL34h3p
+# cgSgspJ2msm6clMCkdW9
+# t0jbNlBVZ17f02VDIeMI
+# Zlb1dXrM653N07WRdFW3
+# TxGEqnHWrfWFTfGW9XjX
+# FGY2WhTYpPnrIDTdsKH5
+# pFZP5JQG7iQjIQuC4Bku
+# XrExE9yKIg1WjnnlVkGX
+# flq6f7yk4E4fJM5XTYuZ
+# zrHiDhphv9ZnVXBqCLjz
+# piTKgcLEGmPE4e6mEKli
+# ODq5zmih8GrVes37Dizd
+# 5Q0t7uMcjvnagumLfvZi
+# 21m00Tcm4TlvDq8ikWAM
+# SAz9YHcvj6GT2YYXdXww
+# CwhRBWXzGAHq8TQ4Fs17
+# yoZ06aMxZJJ28mfd3POQ
+# EXAVITQu4vr4xnSDxMaL
+# pMsXgVXv3BLzUgSXRplE
+# bIHbv24MWmeRgasZH58o
