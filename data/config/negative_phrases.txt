@@ -1,13 +1,26 @@
 # Negative phrases (similar-sounding words)
 # Add one phrase per line
-Terry
-Harry
-Gary
-Barry
-#Larry
-#Mary
-#Siri
-#Google
-#Alexa
-#Jarvis
-#Cortana
+
+
+jeep  
+jeer  
+jelly  
+jewel  
+jeans  
+jerky  
+jester  
+jeopardy  
+jellyfish  
+jersey
+
+
+mary  
+larry  
+harry  
+perry  
+carry  
+merry  
+berry  
+gary  
+terry  
+cherry

@@ -152,6 +152,7 @@ fonts/vi/*
 fonts/win/*
 
 # Ignore speech data
+data/
 speech_data/
 
 # Models

@@ -2,12 +2,13 @@
 # Add one voice ID per line
 # Lines starting with # are ignored
 
-GBv7mTt0atIp3Br8iCZE
-
+5mZxJZhSmJTjL7GoYfYI
+WuLq5z7nEcrhppO0ZQJw
+# daJ4gHLkIVFskWuoLuDX
 
 
 # Additional voice IDs (uncomment to use):
-
+# GBv7mTt0atIp3Br8iCZE
 # TX3LPaxmHKxFdv7VOQHJ
 # zcAOhNBS3c14rBihAFp1
 # jBpfuIE2acCO8z3wKNLl
@@ -65,3 +66,4 @@ GBv7mTt0atIp3Br8iCZE
 # EXAVITQu4vr4xnSDxMaL
 # pMsXgVXv3BLzUgSXRplE
 # bIHbv24MWmeRgasZH58o
+
